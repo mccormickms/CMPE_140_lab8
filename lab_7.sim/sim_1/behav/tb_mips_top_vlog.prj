@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../controlunit.v"
+verilog xil_defaultlib  "../../../cu_parts.v"
+verilog xil_defaultlib  "../../../datapath.v"
+verilog xil_defaultlib  "../../../dp_parts.v"
+verilog xil_defaultlib  "../../../../140_lab_6/mem_parts.v"
+verilog xil_defaultlib  "../../../mips.v"
+verilog xil_defaultlib  "../../../../140_lab_6/mips_top.v"
+verilog xil_defaultlib  "../../../tb_mips_top.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

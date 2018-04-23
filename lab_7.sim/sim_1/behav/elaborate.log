@@ -1,0 +1,33 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 1d434f6cbc8446aea8206dc5f5c88d28 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mips_top_behav xil_defaultlib.tb_mips_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port ra3 [C:/Users/Matt/Documents/SJSU/CMPE_140/140_lab_6/mips_top.v:4]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 5 for port a [C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/datapath.v:24]
+WARNING: [VRFC 10-278] actual bit length 65 differs from formal bit length 64 for port y [C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/datapath.v:33]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/lab_7.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dreg
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.mux2(wide=32)
+Compiling module xil_defaultlib.mux2(wide=5)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mult
+Compiling module xil_defaultlib.multreg
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.auxdec
+Compiling module xil_defaultlib.controlunit
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.imem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.mips_top
+Compiling module xil_defaultlib.tb_mips_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mips_top_behav

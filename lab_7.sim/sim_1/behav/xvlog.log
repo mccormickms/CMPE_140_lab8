@@ -1,0 +1,29 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/controlunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlunit
+INFO: [VRFC 10-2458] undeclared symbol branch, assumed default net type wire [C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/controlunit.v:7]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/cu_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-311] analyzing module auxdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/dp_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-311] analyzing module signext
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-311] analyzing module mult
+INFO: [VRFC 10-311] analyzing module multreg
+INFO: [VRFC 10-311] analyzing module dreg
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/140_lab_6/mem_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/mips.v:7]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/140_lab_6/mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/tb_mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/lab_7.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

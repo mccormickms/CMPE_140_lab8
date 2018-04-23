@@ -1,0 +1,13 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+C:/Users/Matt/Documents/SJSU/CMPE_140/140_lab_6/mem_parts.v,1521057933,verilog,,,,dmem;imem,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/140_lab_6/mips_top.v,1521057934,verilog,,,,mips_top,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/controlunit.v,1523515790,verilog,,,,controlunit,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/cu_parts.v,1523515791,verilog,,,,auxdec;maindec,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/datapath.v,1523840710,verilog,,,,datapath,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/dp_parts.v,1523306245,verilog,,,,adder;alu;dreg;mult;multreg;mux2;regfile;signext,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/lab_7.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/mips.v,1523926785,verilog,,,,mips,,,,,,,,
+C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/tb_mips_top.v,1523839762,verilog,,,,tb_mips_top,,,,,,,,
