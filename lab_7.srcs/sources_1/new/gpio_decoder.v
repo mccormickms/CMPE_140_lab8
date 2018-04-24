@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04/23/2018 07:57:32 PM
-// Design Name: 
-// Module Name: gpio_decoder
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module gpio_decoder(
     input we,
@@ -28,19 +8,19 @@ module gpio_decoder(
     );
     always @(*) begin
         case (address)
-            00:
+            2'b00:
                 begin
                     we1 = 1'b0;
                     we2 = 1'b0;
                     read_sel = 2'b00;
                 end
-            01:
+            2'b01:
                 begin
                     we1 = 1'b0;
                     we2 = 1'b0;
                     read_sel = 2'b01;
                 end
-            10:
+            2'b10:
                 begin
                     if (we)begin
                         we1 = 1'b0;

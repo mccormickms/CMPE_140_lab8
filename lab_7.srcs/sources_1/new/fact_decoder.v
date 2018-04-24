@@ -1,5 +1,4 @@
 `timescale 1ns / 1ps
-
 module fact_decoder(
         input we,
         input [1:0] address,
@@ -7,7 +6,7 @@ module fact_decoder(
     );
     always@(*) begin
         case (address)
-            00:
+            2'b00:
                 begin
                     if(we) begin
                         we1 = 1'b1;
@@ -20,7 +19,7 @@ module fact_decoder(
                         RdSel = 2'b00;
                     end
                 end
-            01:
+            2'b01:
                 begin
                     if(we) begin
                         we1 = 1'b0;
@@ -33,7 +32,7 @@ module fact_decoder(
                         RdSel = 2'b01;
                     end
                 end
-            10:
+            2'b10:
                 begin
                     we1 = 1'b0;
                     we2 = 1'b0;
