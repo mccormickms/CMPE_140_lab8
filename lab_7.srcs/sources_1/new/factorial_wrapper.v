@@ -59,8 +59,8 @@ module factorial_wrapper(
 
     mux4 #(.DATA_WIDTH(32))
         output_mux_inst(
-            .sel(read_sel), .a({{30{1'b0}},fact_n}), 
-            .b({{30{1'b0}},go}), .c({{30{1'b0}},err_out,done_out}),
+            .sel(read_sel), .a({{28{1'b0}},fact_n}), 
+            .b({{31{1'b0}},go}), .c({{30{1'b0}},err_out,done_out}),
             .d(result_out), .y(data_out)
         );
 
