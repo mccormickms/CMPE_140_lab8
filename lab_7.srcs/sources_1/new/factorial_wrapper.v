@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module factorial_top(
+module factorial_wrapper(
         input clk, reset,we,
         input   [1:0]   address,
         input   [3:0]   data_in,
@@ -59,7 +59,7 @@ module factorial_top(
 
     mux4 #(.DATA_WIDTH(32))
         output_mux_inst(
-            .sel({{30{1'b0}},read_sel}), .a({{30{1'b0}},fact_n}), 
+            .sel(read_sel), .a({{30{1'b0}},fact_n}), 
             .b({{30{1'b0}},go}), .c({{30{1'b0}},err_out,done_out}),
             .d(result_out), .y(data_out)
         );
