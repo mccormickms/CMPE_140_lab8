@@ -3,6 +3,18 @@ module mux2 #(parameter wide = 8)
     assign y = (sel) ? b : a;
 endmodule
 
+module mux4 #(parameter DATA_WIDTH = 32)
+(input [1:0] sel, [DATA_WIDTH-1:0] a,b,c,d, output reg [DATA_WIDTH-1:0] y);
+    always @ (*) begin
+        case (sel) 
+            00: y = a;
+            01: y = b;
+            10: y = c;
+            default: y = d;
+        endcase
+    end
+endmodule
+
 module adder
 (input [31:0] a, b, output [31:0] y);
     assign y = a + b;
@@ -36,8 +48,8 @@ module mult // NEW INFERRED MULT
 	end
 endmodule
 
-module multreg // NEW REG FOR HI AND LO OUTPUT FROM MULT
-(input clk, we, rst, [31:0] d, output reg [31:0] q);
+module dreg_en #(parameter DATA_WIDTH = 32) 
+(input clk, we, rst, [DATA_WIDTH-1:0] d, output reg [DATA_WIDTH-1:0] q);
 	always @ (posedge clk, posedge rst)
 	begin
 		if(rst) q <= 0;
@@ -46,12 +58,21 @@ module multreg // NEW REG FOR HI AND LO OUTPUT FROM MULT
 	end
 endmodule
 
-module dreg
-(input clk, rst, [31:0] d, output reg [31:0] q);
+module dreg #(parameter DATA_WIDTH = 32)
+(input clk, rst, [DATA_WIDTH-1:0] d, output reg [DATA_WIDTH-1:0] q);
     always @ (posedge clk, posedge rst)
     begin
         if (rst) q <= 0;
         else     q <= d;
+    end
+endmodule
+
+module rsreg
+(input clk, set, rst, output reg q);
+    always @ (posedge clk, posedge rst)
+    begin
+        if(rst) q <=0;
+        else q <= set;
     end
 endmodule
 

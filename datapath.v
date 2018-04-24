@@ -31,8 +31,8 @@ module datapath
     mux2 #(32) alu_pb_mux (alu_src, wd_dm, sext_imm, alu_pb);
     alu        alu        (alu_ctrl[6:4], alu_pa, alu_pb, zero, alu_out);
     mult       mult       (.a(alu_pa), .b(wd_dm), .y(Mult_res));                                    //
-    multreg    HI         (.clk(clk), .we(alu_ctrl[1]), .rst(rst), .d(Mult_res[63:32]), .q(Hi));   // NEW FOR
-    multreg    LO         (.clk(clk), .we(alu_ctrl[1]), .rst(rst), .d(Mult_res[31:0]), .q(Lo));    // MULT, MFLO, MFHI
+    dreg_en    HI         (.clk(clk), .we(alu_ctrl[1]), .rst(rst), .d(Mult_res[63:32]), .q(Hi));   // NEW FOR
+    dreg_en    LO         (.clk(clk), .we(alu_ctrl[1]), .rst(rst), .d(Mult_res[31:0]), .q(Lo));    // MULT, MFLO, MFHI
     mux2 #(32) HiorLo_mux (.sel(alu_ctrl[2]), .a(Hi), .b(Lo), .y(Mult_out));                             //
     // --- MEM Logic --- //
     mux2 #(32) rf_wd_mux  (dm2reg, alu_out, rd_dm, wd_rf_1);
