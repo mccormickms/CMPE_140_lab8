@@ -8,7 +8,7 @@ module interface_wrapper(
     wire [1:0] read_sel;
     wire [31:0] Dmem_out, fact_out, gpio_out;
     
-    mux4 #(DATA_WIDTH(32))
+    mux4 #(32)
         data_out_mux(
             .sel(read_sel), .a(Dmem_out), .b(Dmem_out), .c(fact_out), .d(gpio_out), .y(data_out) 
         );
@@ -31,7 +31,7 @@ module interface_wrapper(
 
     dmem
         dmem_inst(
-            .clk(clk), .we_dm(wem), .a(address[7:2]), .d(data_in), .q(Dmem_out)
+            .clk(clk), .we(wem), .a(address[7:2]), .d(data_in), .q(Dmem_out)
         );
 
 endmodule
