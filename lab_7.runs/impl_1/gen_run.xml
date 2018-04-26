@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1523841194">
   <File Type="BG-DRC" Name="mips_fpga.drc"/>
-  <File Type="PA-TCL" Name="mips_fpga.tcl"/>
-  <File Type="OPT-DCP" Name="mips_fpga_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="mips_fpga.hwdef"/>
-  <File Type="RDI-RDI" Name="mips_fpga.vdi"/>
   <File Type="PWROPT-DCP" Name="mips_fpga_pwropt.dcp"/>
-  <File Type="PLACE-DCP" Name="mips_fpga_placed.dcp"/>
+  <File Type="PA-TCL" Name="mips_fpga.tcl"/>
+  <File Type="OPT-HWDEF" Name="mips_fpga.hwdef"/>
+  <File Type="OPT-DCP" Name="mips_fpga_opt.dcp"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="mips_fpga_incremental_reuse_pre_placed.rpt"/>
+  <File Type="RDI-RDI" Name="mips_fpga.vdi"/>
+  <File Type="PLACE-DCP" Name="mips_fpga_placed.dcp"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="mips_fpga_postplace_pwropt.dcp"/>
   <File Type="PHYSOPT-DCP" Name="mips_fpga_physopt.dcp"/>
   <File Type="BG-BIT" Name="mips_fpga.bit"/>

@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab_7.srcs/sources_1/new/CU.v" \
+"../../../../lab_7.srcs/sources_1/new/DP.v" \
+"../../../../lab_7.srcs/sources_1/new/Factorial.v" \
+"../../../../dp_parts.v" \
+"../../../../lab_7.srcs/sources_1/new/fact_decoder.v" \
+"../../../../lab_7.srcs/sources_1/new/factorial_wrapper.v" \
+"../../../../lab_7.srcs/sim_1/new/tb_factorial_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
