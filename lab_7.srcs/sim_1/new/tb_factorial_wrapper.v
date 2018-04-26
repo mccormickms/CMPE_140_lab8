@@ -20,9 +20,12 @@ module tb_factorial_wrapper(
             data_in = tb_fact_in;
             load_start;
             address = 2'b10;
-            while(!data_out[0]) tick;
+            #5;
+            while(!data_out[0]) tick; 
+            tick;
             checkSolution;
             tb_fact_in = tb_fact_in + 1;
+            tick;
         end
         //check for error
         printResults;
@@ -39,7 +42,7 @@ module tb_factorial_wrapper(
           
     task tick;
     begin
-        clk = 1; #1;
+        #1 clk = 1; #1;
         clk = 0; #1;
     end
     endtask
@@ -47,10 +50,10 @@ module tb_factorial_wrapper(
     task load_start;
     begin
         address = 2'b00;
+        we = 1;
         tick;
         address = 2'b01;
         data_in = 4'b1;
-        we = 1;
         tick;
         data_in = tb_fact_in;
     end
@@ -67,7 +70,7 @@ module tb_factorial_wrapper(
             count = count + 1;
         end
         if (data_out != fact_expected)begin
-            $display("ERROR: Incorrect factorial solution || Input: %d Expected: %d Actual: %d\n",tb_fact_in, fact_expected, data_out);
+            $display($time," ERROR: Incorrect factorial solution || Input: %d Expected: %d Actual: %d\n",tb_fact_in, fact_expected, data_out);
             error_count = error_count + 1;
         end
     end
