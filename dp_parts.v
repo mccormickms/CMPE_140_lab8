@@ -7,9 +7,9 @@ module mux4 #(parameter DATA_WIDTH = 32)
 (input [1:0] sel, [DATA_WIDTH-1:0] a,b,c,d, output reg [DATA_WIDTH-1:0] y);
     always @ (*) begin
         case (sel) 
-            00: y = a;
-            01: y = b;
-            10: y = c;
+            2'b00: y = a;
+            2'b01: y = b;
+            2'b10: y = c;
             default: y = d;
         endcase
     end
@@ -72,7 +72,8 @@ module rsreg
     always @ (posedge clk, posedge rst)
     begin
         if(rst) q <=0;
-        else q <= set;
+        else if(set) q <= 1;
+        else q <= q;
     end
 endmodule
 
