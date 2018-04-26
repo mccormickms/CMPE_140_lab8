@@ -26,5 +26,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_pr
 INFO: [VRFC 10-311] analyzing module factorial_wrapper
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sim_1/new/tb_factorial_wrapper.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_factorial_wrapper
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

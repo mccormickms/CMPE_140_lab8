@@ -1,1 +1,2 @@
 Breakpoint File Version 1.0
+24 true C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sim_1/new/tb_factorial_wrapper.v

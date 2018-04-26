@@ -2,9 +2,9 @@
 2018.1
 Apr  4 2018
 19:30:32
-C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/dp_parts.v,1524534365,verilog,,C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/fact_decoder.v,,adder;alu;dreg;dreg_en;mult;mux2;mux4;regfile;rsreg;signext,,,,,,,,
+C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/dp_parts.v,1524774962,verilog,,C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/fact_decoder.v,,adder;alu;dreg;dreg_en;mult;mux2;mux4;regfile;rsreg;signext,,,,,,,,
 C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.sim/sim_1/behav/xsim/glbl.v,1524770074,verilog,,,,glbl,,,,,,,,
-C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sim_1/new/tb_factorial_wrapper.v,1524770075,verilog,,,,tb_factorial_wrapper,,,,,,,,
+C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sim_1/new/tb_factorial_wrapper.v,1524775315,verilog,,,,tb_factorial_wrapper,,,,,,,,
 C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/CU.v,1524770075,verilog,,C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/DP.v,,CU,,,,,,,,
 C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/DP.v,1524770075,verilog,,C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/Factorial.v,,CMP_GT;CNT_DOWN;DP;MUL;MUX_2;REG_D,,,,,,,,
 C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/Factorial.v,1524770075,verilog,,C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/dp_parts.v,,Factorial,,,,,,,,

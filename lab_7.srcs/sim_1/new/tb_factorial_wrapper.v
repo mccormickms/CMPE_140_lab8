@@ -33,6 +33,8 @@ module tb_factorial_wrapper(
     end
     
     task initialize; begin
+        reset = 1; #5;
+        reset = 0; #5;
         tb_fact_in  =   1;
         data_in     =   0;
         address     =   0;
