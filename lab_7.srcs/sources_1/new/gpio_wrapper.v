@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 module gpio_wrapper(
         input clk, reset, we,
-        input [3:2]     address,
+        input [1:0]     address,
         input [31:0]    gpi1, gpi2, data_in,
         output [31:0]   data_out, gpo1_out, gpo2_out
     );
