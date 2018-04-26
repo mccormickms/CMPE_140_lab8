@@ -20,7 +20,7 @@ module tb_factorial_wrapper(
             data_in = tb_fact_in;
             load_start;
             address = 2'b10;
-            #5;
+//            #5;
             while(!data_out[0]) tick; 
             tick;
             checkSolution;
@@ -49,13 +49,14 @@ module tb_factorial_wrapper(
     
     task load_start;
     begin
-        address = 2'b00;
+        address = 2'b00;//set n
         we = 1;
         tick;
         address = 2'b01;
-        data_in = 4'b1;
+        data_in = 4'b1;//assert go
         tick;
-        data_in = tb_fact_in;
+        data_in = tb_fact_in;//idk
+        we=0;
     end
     endtask
     
