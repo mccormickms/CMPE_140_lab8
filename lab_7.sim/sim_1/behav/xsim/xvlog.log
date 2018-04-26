@@ -1,15 +1,39 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/fact_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fact_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/gpio_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/factorial_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module factorial_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/CU.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module CU
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/DP.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/Factorial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Factorial
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/gpio_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/DP.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module DP
 INFO: [VRFC 10-311] analyzing module CNT_DOWN
 INFO: [VRFC 10-311] analyzing module MUX_2
 INFO: [VRFC 10-311] analyzing module REG_D
 INFO: [VRFC 10-311] analyzing module MUL
 INFO: [VRFC 10-311] analyzing module CMP_GT
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/Factorial.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Factorial
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/dp_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/main_address_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_address_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/new/interface_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module interface_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/tb_mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/mips_fpga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fpga
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/mips.v:7]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/mem_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/dp_parts.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mux2
 INFO: [VRFC 10-311] analyzing module mux4
 INFO: [VRFC 10-311] analyzing module adder
@@ -20,9 +44,82 @@ INFO: [VRFC 10-311] analyzing module dreg_en
 INFO: [VRFC 10-311] analyzing module dreg
 INFO: [VRFC 10-311] analyzing module rsreg
 INFO: [VRFC 10-311] analyzing module regfile
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/fact_decoder.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fact_decoder
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sources_1/new/factorial_wrapper.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module factorial_wrapper
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bryan/Documents/verilog_projects/CMPE_140_lab8/lab_7.srcs/sim_1/new/tb_factorial_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/utility.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
+INFO: [VRFC 10-311] analyzing module bcd_to_7seg
+INFO: [VRFC 10-311] analyzing module led_mux
+INFO: [VRFC 10-311] analyzing module bdebouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/controlunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlunit
+INFO: [VRFC 10-2458] undeclared symbol branch, assumed default net type wire [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/controlunit.v:7]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sources_1/imports/CMPE_140_lab8/cu_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-311] analyzing module auxdec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/tb_mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_mips_top
+WARNING: [VRFC 10-2845] overwriting previous definition of module tb_mips_top [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/tb_mips_top.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/new/tb_factorial_wrapper.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_factorial_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/new/tb_gpio_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_gpio_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips_fpga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_fpga
+WARNING: [VRFC 10-2845] overwriting previous definition of module mips_fpga [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips_fpga.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips.v:7]
+WARNING: [VRFC 10-2845] overwriting previous definition of module mips [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_top
+WARNING: [VRFC 10-2845] overwriting previous definition of module mips_top [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mips_top.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mem_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+WARNING: [VRFC 10-2845] overwriting previous definition of module imem [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mem_parts.v:1]
+INFO: [VRFC 10-311] analyzing module dmem
+WARNING: [VRFC 10-2845] overwriting previous definition of module dmem [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/mem_parts.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux2 [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:1]
+INFO: [VRFC 10-311] analyzing module mux4
+WARNING: [VRFC 10-2845] overwriting previous definition of module mux4 [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:6]
+INFO: [VRFC 10-311] analyzing module adder
+WARNING: [VRFC 10-2845] overwriting previous definition of module adder [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:18]
+INFO: [VRFC 10-311] analyzing module signext
+WARNING: [VRFC 10-2845] overwriting previous definition of module signext [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:23]
+INFO: [VRFC 10-311] analyzing module alu
+WARNING: [VRFC 10-2845] overwriting previous definition of module alu [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:28]
+INFO: [VRFC 10-311] analyzing module mult
+WARNING: [VRFC 10-2845] overwriting previous definition of module mult [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:43]
+INFO: [VRFC 10-311] analyzing module dreg_en
+WARNING: [VRFC 10-2845] overwriting previous definition of module dreg_en [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:51]
+INFO: [VRFC 10-311] analyzing module dreg
+WARNING: [VRFC 10-2845] overwriting previous definition of module dreg [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:61]
+INFO: [VRFC 10-311] analyzing module rsreg
+WARNING: [VRFC 10-2845] overwriting previous definition of module rsreg [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:70]
+INFO: [VRFC 10-311] analyzing module regfile
+WARNING: [VRFC 10-2845] overwriting previous definition of module regfile [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/dp_parts.v:80]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+WARNING: [VRFC 10-2845] overwriting previous definition of module datapath [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/datapath.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/utility.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_gen
+WARNING: [VRFC 10-2845] overwriting previous definition of module clk_gen [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/utility.v:1]
+INFO: [VRFC 10-311] analyzing module bcd_to_7seg
+WARNING: [VRFC 10-2845] overwriting previous definition of module bcd_to_7seg [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/utility.v:47]
+INFO: [VRFC 10-311] analyzing module led_mux
+WARNING: [VRFC 10-2845] overwriting previous definition of module led_mux [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/utility.v:73]
+INFO: [VRFC 10-311] analyzing module bdebouncer
+WARNING: [VRFC 10-2845] overwriting previous definition of module bdebouncer [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/utility.v:98]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/controlunit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controlunit
+INFO: [VRFC 10-2458] undeclared symbol branch, assumed default net type wire [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/controlunit.v:7]
+WARNING: [VRFC 10-2845] overwriting previous definition of module controlunit [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/controlunit.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/cu_parts.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+WARNING: [VRFC 10-2845] overwriting previous definition of module maindec [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/cu_parts.v:1]
+INFO: [VRFC 10-311] analyzing module auxdec
+WARNING: [VRFC 10-2845] overwriting previous definition of module auxdec [C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.srcs/sim_1/imports/CMPE_140_lab8/cu_parts.v:22]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

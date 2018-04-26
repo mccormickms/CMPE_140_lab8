@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 26 14:01:43 2018
+# Process ID: 10356
+# Current directory: C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.runs/synth_1
+# Command line: vivado.exe -log mips_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_top.tcl
+# Log file: C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.runs/synth_1/mips_top.vds
+# Journal file: C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mips_top.tcl -notrace
+ERROR: [Common 17-275] File does not exist [C:/Users/alexn/Documents/GitHub/140_lab_6/Single Cycle MIPS Validation_F17/mips_fpga.xdc]
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 26 14:01:52 2018...

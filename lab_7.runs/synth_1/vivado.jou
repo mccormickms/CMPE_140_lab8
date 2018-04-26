@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2017.2 (64-bit)
-# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
-# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Sun Apr 15 18:13:16 2018
-# Process ID: 4276
-# Current directory: C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/lab_7.runs/synth_1
-# Command line: vivado.exe -log mips_fpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_fpga.tcl
-# Log file: C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/lab_7.runs/synth_1/mips_fpga.vds
-# Journal file: C:/Users/Matt/Documents/SJSU/CMPE_140/lab_7/lab_7.runs/synth_1\vivado.jou
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Apr 26 14:01:43 2018
+# Process ID: 10356
+# Current directory: C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.runs/synth_1
+# Command line: vivado.exe -log mips_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mips_top.tcl
+# Log file: C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.runs/synth_1/mips_top.vds
+# Journal file: C:/Users/alexn/Documents/GitHub/CMPE_140_lab8/lab_7.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source mips_fpga.tcl -notrace
+source mips_top.tcl -notrace
